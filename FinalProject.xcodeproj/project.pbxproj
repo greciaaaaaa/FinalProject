@@ -14,6 +14,16 @@
 		BD8DA1ED2C584E5F00C83C52 /* FinalProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8DA1EC2C584E5F00C83C52 /* FinalProjectTests.swift */; };
 		BD8DA1F72C584E5F00C83C52 /* FinalProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8DA1F62C584E5F00C83C52 /* FinalProjectUITests.swift */; };
 		BD8DA1F92C584E5F00C83C52 /* FinalProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8DA1F82C584E5F00C83C52 /* FinalProjectUITestsLaunchTests.swift */; };
+		BD9348492C5AF0CD0071EE97 /* QuizzPage1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9348482C5AF0CD0071EE97 /* QuizzPage1.swift */; };
+		BD93484B2C5AF2D30071EE97 /* QuizzPage2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD93484A2C5AF2D30071EE97 /* QuizzPage2.swift */; };
+		BD93484D2C5AF6210071EE97 /* QuizzPage3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD93484C2C5AF6210071EE97 /* QuizzPage3.swift */; };
+		BD93484F2C5BF5940071EE97 /* QuizzResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD93484E2C5BF5940071EE97 /* QuizzResults.swift */; };
+		BDD288AF2C5ACEE500FB9C0E /* Quizz.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD288AE2C5ACEE500FB9C0E /* Quizz.swift */; };
+		BDD78AB42C5988200095CD46 /* AcnePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD78AB32C5988200095CD46 /* AcnePage.swift */; };
+		BDD78AB62C5989C20095CD46 /* DrySkin.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD78AB52C5989C20095CD46 /* DrySkin.swift */; };
+		BDD78AB82C5989D10095CD46 /* WetSkin.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD78AB72C5989D10095CD46 /* WetSkin.swift */; };
+		BDD78ABA2C5989E00095CD46 /* CombinationSkin.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD78AB92C5989E00095CD46 /* CombinationSkin.swift */; };
+		BDD78ABC2C598D670095CD46 /* AboutOurApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD78ABB2C598D670095CD46 /* AboutOurApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +54,16 @@
 		BD8DA1F22C584E5F00C83C52 /* FinalProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinalProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD8DA1F62C584E5F00C83C52 /* FinalProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalProjectUITests.swift; sourceTree = "<group>"; };
 		BD8DA1F82C584E5F00C83C52 /* FinalProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BD9348482C5AF0CD0071EE97 /* QuizzPage1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizzPage1.swift; sourceTree = "<group>"; };
+		BD93484A2C5AF2D30071EE97 /* QuizzPage2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizzPage2.swift; sourceTree = "<group>"; };
+		BD93484C2C5AF6210071EE97 /* QuizzPage3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizzPage3.swift; sourceTree = "<group>"; };
+		BD93484E2C5BF5940071EE97 /* QuizzResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizzResults.swift; sourceTree = "<group>"; };
+		BDD288AE2C5ACEE500FB9C0E /* Quizz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quizz.swift; sourceTree = "<group>"; };
+		BDD78AB32C5988200095CD46 /* AcnePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcnePage.swift; sourceTree = "<group>"; };
+		BDD78AB52C5989C20095CD46 /* DrySkin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrySkin.swift; sourceTree = "<group>"; };
+		BDD78AB72C5989D10095CD46 /* WetSkin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WetSkin.swift; sourceTree = "<group>"; };
+		BDD78AB92C5989E00095CD46 /* CombinationSkin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinationSkin.swift; sourceTree = "<group>"; };
+		BDD78ABB2C598D670095CD46 /* AboutOurApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutOurApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +116,16 @@
 			children = (
 				BD8DA1DB2C584E5E00C83C52 /* FinalProjectApp.swift */,
 				BD8DA1DD2C584E5E00C83C52 /* ContentView.swift */,
+				BDD78ABB2C598D670095CD46 /* AboutOurApp.swift */,
+				BDD78AB32C5988200095CD46 /* AcnePage.swift */,
+				BDD78AB52C5989C20095CD46 /* DrySkin.swift */,
+				BDD78AB72C5989D10095CD46 /* WetSkin.swift */,
+				BDD78AB92C5989E00095CD46 /* CombinationSkin.swift */,
+				BDD288AE2C5ACEE500FB9C0E /* Quizz.swift */,
+				BD9348482C5AF0CD0071EE97 /* QuizzPage1.swift */,
+				BD93484A2C5AF2D30071EE97 /* QuizzPage2.swift */,
+				BD93484C2C5AF6210071EE97 /* QuizzPage3.swift */,
+				BD93484E2C5BF5940071EE97 /* QuizzResults.swift */,
 				BD8DA1DF2C584E5F00C83C52 /* Assets.xcassets */,
 				BD8DA1E12C584E5F00C83C52 /* Preview Content */,
 			);
@@ -257,8 +287,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDD78AB62C5989C20095CD46 /* DrySkin.swift in Sources */,
+				BDD288AF2C5ACEE500FB9C0E /* Quizz.swift in Sources */,
+				BD93484F2C5BF5940071EE97 /* QuizzResults.swift in Sources */,
+				BDD78AB82C5989D10095CD46 /* WetSkin.swift in Sources */,
+				BDD78ABA2C5989E00095CD46 /* CombinationSkin.swift in Sources */,
+				BDD78ABC2C598D670095CD46 /* AboutOurApp.swift in Sources */,
+				BD93484D2C5AF6210071EE97 /* QuizzPage3.swift in Sources */,
+				BDD78AB42C5988200095CD46 /* AcnePage.swift in Sources */,
 				BD8DA1DE2C584E5E00C83C52 /* ContentView.swift in Sources */,
 				BD8DA1DC2C584E5E00C83C52 /* FinalProjectApp.swift in Sources */,
+				BD9348492C5AF0CD0071EE97 /* QuizzPage1.swift in Sources */,
+				BD93484B2C5AF2D30071EE97 /* QuizzPage2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
