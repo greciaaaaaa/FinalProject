@@ -82,7 +82,7 @@ struct ContentView: View {
                 //
                 HStack{
                     NavigationLink(destination: WetSkin()) {
-                        Text("Wet Skin")
+                        Text("Oily Skin")
                             .font(.system(size: 20))
                             .foregroundColor(Color(red: 0.479790628, green: 0.5915179849, blue: 0.4501290321))
                             .frame(width: 125.0, height: 110.0)
