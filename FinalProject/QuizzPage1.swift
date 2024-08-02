@@ -14,6 +14,13 @@ struct QuizzPage1: View {
                 .ignoresSafeArea()
             VStack{
                 Text("How does you face usually look by the end of the day?")
+                    .font(.custom("BaskerVille", size: 29))
+                    .fontWeight(.medium)
+                    .foregroundColor(Color(red: 0.545, green: 0.59, blue: 0.502))
+                    .frame(width:300, height: 120)
+                    .background(Color(.white))
+                    .cornerRadius(15)
+                    .padding(.bottom)
                 
                 Button("Shiny"){
                     wetSkin += 1
@@ -26,9 +33,16 @@ struct QuizzPage1: View {
                 Button("Shiny in some areas and matte in others."){
                     combinationSkin += 1
                 }
+                .padding(.bottom)
                 
                 NavigationLink(destination: QuizzPage2()) {
                     Text("Next Questionn")
+                        .font(.custom("BaskerVille", size: 20))
+                        .fontWeight(.medium)
+                        .foregroundColor(Color(red: 0.545, green: 0.59, blue: 0.502))
+                        .frame(width:150, height: 40)
+                        .background(Color(.white))
+                        .cornerRadius(15)
                 }
                 
                 

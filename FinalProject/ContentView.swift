@@ -18,8 +18,8 @@ struct ContentView: View {
   // --------------------------------
             VStack{
                 Text("EcoRemedy")
-                    .font(.system(size: 40))
-                    .fontWeight(.bold)
+                    .font(.custom("BaskerVille", size: 49))
+                    .fontWeight(.thin)
                     .foregroundColor(Color(red: 0.4786352515, green: 0.5915483832, blue: 0.4513265491))
                    .frame(width:650, height: 50)
                     .background(Color(.white))
@@ -30,6 +30,7 @@ struct ContentView: View {
                     
                 NavigationLink(destination: AboutOurApp()) {
                     Text("About Our App!")
+                        .font(.custom("BaskerVille", size: 19))
                         .foregroundColor(Color(red: 0.545, green: 0.59, blue: 0.502))
                         .frame(width: 150, height: 40)
                         .background(Color(.white))
@@ -45,7 +46,7 @@ struct ContentView: View {
                     .padding(.horizontal)
                 
                 Text("What do you need help with?")
-                    .font(.title2)
+                    .font(.custom("BaskerVille", size: 29))
                     .foregroundColor(Color(red: 0.479790628, green: 0.5915179849, blue: 0.4501290321))
                     .frame(width: 350, height: 40)
                     .background(Color(.white))
@@ -59,7 +60,7 @@ struct ContentView: View {
                     NavigationLink(destination: AcnePage()){
                         Text("Acne")
                             
-                            .font(.system(size: 20))
+                            .font(.custom("BaskerVille", size: 25))
                             .foregroundColor(Color(red: 0.479790628, green: 0.5915179849, blue: 0.4501290321))
                             .frame(width: 125.0, height: 110.0)
                             .background(Color(.white))
@@ -70,7 +71,7 @@ struct ContentView: View {
                     
                     NavigationLink(destination: DrySkin()) {
                         Text("Dry Skin")
-                            .font(.system(size: 20))
+                            .font(.custom("BaskerVille", size: 25))
                             .foregroundColor(Color(red: 0.479790628, green: 0.5915179849, blue: 0.4501290321))
                             .frame(width: 125.0, height: 110.0)
                             .background(Color(.white))
@@ -83,7 +84,7 @@ struct ContentView: View {
                 HStack{
                     NavigationLink(destination: WetSkin()) {
                         Text("Oily Skin")
-                            .font(.system(size: 20))
+                            .font(.custom("BaskerVille", size: 25))
                             .foregroundColor(Color(red: 0.479790628, green: 0.5915179849, blue: 0.4501290321))
                             .frame(width: 125.0, height: 110.0)
                             .background(Color(.white))
@@ -96,7 +97,7 @@ struct ContentView: View {
                     
                     NavigationLink(destination: CombinationSkin()) {
                         Text("Combination Skin")
-                            .font(.system(size: 20))
+                            .font(.custom("BaskerVille", size: 22))
                             .foregroundColor(Color(red: 0.479790628, green: 0.5915179849, blue: 0.4501290321))
                             .frame(width: 125.0, height: 110.0)
                             .background(Color(.white))
@@ -114,7 +115,7 @@ struct ContentView: View {
                 Spacer()
                 NavigationLink(destination: Quizz()) {
                     Text("Take a Quizz!")
-                        .font(.system(size: 20))
+                        .font(.custom("BaskerVille", size: 19))
                         .foregroundColor(Color(red: 0.479790628, green: 0.5915179849, blue: 0.4501290321))
                         .frame(width: 200.0, height: 30.0)
                         .background(Color(.white))

@@ -14,8 +14,7 @@ struct AboutOurApp: View {
                 .ignoresSafeArea()
             VStack{
                 Text("About Out App!")
-                    .font(.system(size: 40))
-                    .fontWeight(.heavy)
+                    .font(.custom("BaskerVille", size: 49))                    .fontWeight(.thin)
                     .foregroundColor(Color(red: 0.479790628, green: 0.5915179849, blue: 0.45012903))
                     .padding()
                     .frame(width: 1000, height: 50)
@@ -26,41 +25,25 @@ struct AboutOurApp: View {
                     .frame(height: 4)
                     .overlay(Color(red: 0.479790628, green: 0.5915179849, blue: 0.4501290321))
                 Text("What is EcoRemedy?")
-                    .font(.system(size: 30))
-                    .foregroundColor(Color(red: 0.479790628, green: 0.5915179849, blue: 0.4501290321))
+                    .font(.custom("BaskerVille", size: 29))                    .fontWeight(.regular).foregroundColor(Color(red: 0.479790628, green: 0.5915179849, blue: 0.4501290321))
                 
                 
                 Image("logo")
-                    .padding(.bottom)
-                
+                    .border(Color(red: 0.545, green: 0.59, blue: 0.502), width: 3)
+                Spacer()
               
-                Text(" The apps main function would be to provide our users with natural remedies for personal wellness as mentioned, hair, skin, and nails. Not only that, but our app will aim to help individuals gain knowledge with detailed instructions as to how to use these remedies and things that they will help them with in descriptions and paragraphs.")
-                    .font(.system(size: 17))
+                Text(" The apps main function would be to provide our users with natural remedies and ingredints for personal wellness of their skin. Not only that, but our app will aim to help individuals gain knowledge with detailed instructions as to how to use these ingredients and what it will help them with in descriptions of each said ingredient.")
+                    .font(.custom("BaskerVille", size: 19))
                     .foregroundColor(Color(red: 0.545, green: 0.59, blue: 0.502))
-                    .frame(width:390, height: 180)
+                    .frame(width:390, height: 200)
                     .background(Color(.white))
                     .cornerRadius(15)
                     .padding(.horizontal)
                 Spacer()
+                    
+                    
                 
-                Text("Reasources!")
-                    .font(.title2)
-                //-----
-                HStack{
-                    Text("Acne:")
-                    Text("")
-                }
-                //
-                HStack{
-                    Text("Dry Skin:")
-                    Text("")
-                }
-                //
-                HStack{
-                    Text("Wet Skin:")
-                }
                 
-                Text("Combination Skin:")
                 
             }
         }
